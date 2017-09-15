@@ -1,0 +1,19 @@
+
+Há 4 elementos que interagem para criar páginas HTML no WORDPRESS:
+
+--core files;
+|	O core é o conjuntos de arquivos que você baixa do WORDPRESS.ORG e que provê não
+|	somente as funcionalidades básixas, mas também a coordenação entre todos outros 
+|	elementos. 
+|
+--theme files;
+|	Os arquivos de tema (theme) tem duas funções chaves : Proporcionar o conjunto
+|	de arquivos html que formarão a página final, e controlar o design dessas páginas.
+|
+--plugin files;
+	Plugins são um conjunto de arquivos que adicionam mais funcionalidades para o w ordpress.Alguns plugins consistem em apenas um aquivo, mesmo que alguns possam
+	ter dezenas ou talvez centenas.
+
+--database;
+	O banco de dados (data base) possui várias funções. Ele mantem rastrado todos os parametros da sua instalação do WordPress, qual tema e plugins você tem para as preferencias de cada usuarios.Ele também armazena as porções de texto do seu conteúdo.
+	Quando você escreve um post para um blog, por exemplo, ele é armazenado em um banco de dados, juntamente com qualquer referência dos arquivos de midea, que são armazenadas em pastas no servidor. 
