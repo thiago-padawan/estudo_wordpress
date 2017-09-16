@@ -18,7 +18,7 @@ Há 4 elementos que interagem para criar páginas HTML no WORDPRESS:
 	O banco de dados (data base) possui várias funções. Ele mantem rastrado todos os parametros da sua instalação do WordPress, qual tema e plugins você tem para as preferencias de cada usuarios.Ele também armazena as porções de texto do seu conteúdo.
 	Quando você escreve um post para um blog, por exemplo, ele é armazenado em um banco de dados, juntamente com qualquer referência dos arquivos de midea, que são armazenadas em pastas no servidor. 
 	
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 Na hora de planejar um site dois mapas devem ser estabelecidos , o mapa do site e o mapa da página.O primeiro ira descrever todas as paginas 
 do site e o segundo ira descrever o componentes que cada página irá possuir (header,footer,aside e etc.).
 
@@ -28,7 +28,11 @@ Há dua maneiras de manipular o conteudo mostrado para os visitantes , com pági
 |---Um conjunto de posts relacionados deve ser organizados em categorias, onde a categoria principal ou categoria pai é a caracteristica geral dos posts
 |	envolvidos , e cada categoria filha seria o própio post em si.
 |	Categorias são podem ter hirearquiar complexas, isso ajuda a deixar os posts mais flexiveis e reutilizaveis.
-|--Uma outra maneira de organizar post é através de tags, essas servem para filtrar conteudo através de uma caracteristica geral de um conjunto de conteudos.
----Ja se o conteudo é unico e não haverá outras versões dele, então deve ser inserido como uma página
-|----------------------------------------------------------------------------------------------------------------------------
+|---Uma outra maneira de organizar post é através de tags, essas servem para filtrar conteudo através de uma caracteristica geral de um conjunto de conteudos.
 
+---Ja se o conteudo é unico e não haverá outras versões dele, então deve ser inserido como uma página.
+|-Há como configurar se uma parte da página será escondida em uma pagina(o side bar por exemplo), ou
+| escondida, mas mantenha nas paginas somentes fixas. 
+|---------------------------------------------------------------------------------------------------------
+|---na hora de estruturar o site é bom dividir quais temas serão páginas e quais serão posts, e é bom 	|   também ver quais funcionalidades seu site terá e que o wordpress não oferece alguma dessas  ||||funcionalidade pedira a intalação de um plugin no site.
+	
