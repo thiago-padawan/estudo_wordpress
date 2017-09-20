@@ -36,3 +36,21 @@ Há dua maneiras de manipular o conteudo mostrado para os visitantes , com pági
 |---------------------------------------------------------------------------------------------------------
 |---na hora de estruturar o site é bom dividir quais temas serão páginas e quais serão posts, e é bom 	|   também ver quais funcionalidades seu site terá e que o wordpress não oferece alguma dessas  ||||funcionalidade pedira a intalação de um plugin no site.
 	
+---------------------------------------------------
+
+INSTALANDO WORDPRESS
+
+1-Colar a pasta deszipada do wordpress no servidor;
+2-Criar um banco de dados no php my admin (localhost/phpmyadmin);
+3-A interface do wordpress vai pedir as configurações do banco de dados:
+	-nome do banco de dados;
+	-nome do usuário do banco de dados(caso não seja configurado será root);
+	-senha do bando de dados(caso não seja confugurado será uma senha vázia);
+	-endereço do servidor(se estiver local pode ser localhost ou o ip da maquina);
+	-prefixo da tabela caso se queira utilizar multiplos wordpress em um mesmo banco de dados;
+4-E por fim vai pedir informações do própio usuário;
+	-titulo do site;
+	-nome do usuário;
+	-senha;
+	-e-mail;
+5-Pronto o dashboard do wordpress deve abrir;
