@@ -54,7 +54,14 @@ INSTALANDO WORDPRESS
 	-senha;
 	-e-mail;
 5-Pronto o dashboard do wordpress deve abrir;
-
+-------------------------------------------------------------
+A barra superior no dashboard contem os seguintes links:
+	-Link para o wordpress.org,com a documentação e foruns
+	-Link para o front-end do site
+	-Icone indicando quantos comentários precisam ser moderados
+	-Link rápido para criar um novo post,adicionar media, criar 
+		uma nova página ou adicionar um novo usuario
+	-Link para seu perfil ou para deslogar
 --------------------------------------------------------------
 Maneiras de Manipular caixas
 
