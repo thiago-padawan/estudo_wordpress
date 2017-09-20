@@ -36,7 +36,7 @@ Há dua maneiras de manipular o conteudo mostrado para os visitantes , com pági
 |---------------------------------------------------------------------------------------------------------
 |---na hora de estruturar o site é bom dividir quais temas serão páginas e quais serão posts, e é bom 	|   também ver quais funcionalidades seu site terá e que o wordpress não oferece alguma dessas  ||||funcionalidade pedira a intalação de um plugin no site.
 	
----------------------------------------------------
+-------------------------------------------------------------
 
 INSTALANDO WORDPRESS
 
@@ -54,3 +54,23 @@ INSTALANDO WORDPRESS
 	-senha;
 	-e-mail;
 5-Pronto o dashboard do wordpress deve abrir;
+
+--------------------------------------------------------------
+Maneiras de Manipular caixas
+
+Minimizando
+	|-no cabeçalho das caixas tem uma setinha que 
+	  permite miniizar aquela caixa
+Screen Option-Seção Dashboard=>Select box(Screen Option)
+	|-Pode manipular a visibilidade de algumas caixas e
+	  quantidade de conteúdo em uma caixa
+Drag asn Drop 
+	|-Clicando e segurando no cabeçalho de uma determinada
+	  caixa o cursar ira mudar para uma cruz e partir dai
+	  vc pode arrastar a caixa pra onde vc quiser
+Mudando numeros de colunas
+	|-As caixas no worpress vem com tamanho inicial(no desktop)
+	  de duas colunas e em despositivos menores de uma só,porem
+	  é possivel configurar isso
+
+----------------------------------------------------------------
