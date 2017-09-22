@@ -1,4 +1,5 @@
-
+http://www.wrox.com/WileyCDA/Section/id-825053.html (LINK PARA OS VIDEOS DO LIVRO)
+-------------------------------------------------------------------------------
 Há 4 elementos que interagem para criar páginas HTML no WORDPRESS:
 
 --core files;
@@ -81,3 +82,67 @@ Mudando numeros de colunas
 	  é possivel configurar isso
 
 ----------------------------------------------------------------
+MENU SETTINGS
+|-lembrar de salvar as mudanças depois que elas foram configuradas
+
+SETTINGS=>General
+	|-site title : ja é configurado na instalação do wordpress mas pode
+	ser mudado a hora que quiser,é ipotante para os mecanismos de busca
+	|-tagline:é uma frase que descreve o seu site, e é importante para o
+	SEO do seu site, por default ele ja vem com "just another wordpress site"
+	|-wordpress adress:essa URL mostra para o wordpress onde procurar por
+	arquivos
+	|site adress:essa URL mostra para o wordpress oque usar para contruir
+	url para o site
+	(caso vc queira mudar o dominio do site wordpress não simplismente
+	mude a URL , pesquise "move wordpress site")
+	|-membership:apenas selecione essa checkbox caso vc queira que visitantes
+	se tornem usuários, mesmo assim é melhor usar plugin para não ter usuarios
+	span
+	|-time-zone:é uma selec-tbox para configurar fuso-horário; 
+SETTINGS=>Writing
+|-
+SETTINGS=>Reading
+	|-Search Engine Visibility : Configura se o seu site vai estar ou não visivel
+	para os mecanismos de busca,o padrão é descelecionado,oque configura para o seu
+	site ficar visivel,caso selecione ficara invisivel.
+	(existem plugins de SEO)
+SETTINGS=>Discussion(configura os comentários do site)
+	|-As configurações padrão para os comentários são
+		--Todos comentários serão segurados para moderação, a menos que o visitor 
+		 ja tenha um comentário aprovado
+		--Comentários são mostrados em ramificações,ou seja, se alguem responder
+		diretamente para um comentário em particular, então essa respostas será mostrado
+		abaixo do comentário original
+		--Você receberá um e-mail sempre que um comentário foi postado an sempre que um comentário
+		estiver aguardando por moderação
+		--Um cometário será segurado para moderação caso pussua mais de dois links(sinal de spam)
+	|-Default Article settings-É um checkbox que configura que todas page e todos posts tenham 
+		comentário,caso não queira que as pages com posts, é melhor deixar essa checkbox ativada e na
+		hora de configurar as paginas diretamente tirar os comentários delas
+SETTINGS=>Media(isso configurara todas mideas que vc subir para o wodpress)
+	|-Image Sizes:Quando vc upa uma imagem para o wordpress,ele gera uma série de versões
+	dessa imagem com tamanhos diferentes,nessa seção vc irá configurar qual tamanho terá 
+	essas versões(thumbnail size, mudium size, large size);
+SETTINGS=>Permalink(configura alguns links para que eles possam ter relação com o conteudo da página)
+
+Configurar seu perfil:Você pode clicar no menu users=>your profile ou clicar na foto na barra 
+superior=Edit My profile
+
+O WP tambem permite configurar a senha do usuário,ele mostra se a senha é fraca ou forte
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
