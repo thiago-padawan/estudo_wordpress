@@ -132,9 +132,33 @@ superior=Edit My profile
 O WP tambem permite configurar a senha do usuário,ele mostra se a senha é fraca ou forte
 
 
-
-
-
+--------------------------------------------------------------------------------------------
+PLUGINS
+There aren’t many plugins that directly target admin settings, but if you search for
+plugins by admin setting functions, such as Permalinks, Comments, or Media, you
+can find plugins that override or expand on admin settings. For example:
+➤ Disable Comments—You can globally disable comments for Posts, Pages, or
+Custom Post Types. The plugin removes all comment-related fi elds from the
+edit screens of the post type chosen, so users cannot turn on comments for
+individual items.
+➤ Simple Image Sizes—Enables you to add new image size options to the Media
+settings page and then have those new sizes available when inserting images
+into Posts or Pages, for example.
+PROFILE PLUGINS
+➤ Cimy User Extra Fields—Adds new fi elds to user profi les, including the
+capability to upload user images.
+➤ User Meta Manager—Enables you to create new fi elds for user profi les (but
+the free version is limited to 100 users, which would not work for situations
+in which you have customers or members as users).
+➤ Profi le Builder—Enables you to create a page on the front end of the website
+where users can edit their profi le (assuming they’re logged in).
+➤ WP User Avatar—Enables you to use any image uploaded to the WordPress
+Media Library as a user’s profi le image.
+➤ Simple Local Avatars—Creates a section on the Profi le screen where users can
+upload their own images.
+There are also plugins that put specifi c social media fi elds on the user profi le, such
+as Facebook or Twitter.
+--------------------------------------------------------------------------------------
 
 
 
