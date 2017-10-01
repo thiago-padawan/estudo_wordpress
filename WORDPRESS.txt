@@ -1,11 +1,13 @@
 http://www.wrox.com/WileyCDA/Section/id-825053.html (LINK PARA OS VIDEOS DO LIVRO)
 -------------------------------------------------------------------------------
+para acessar a area de login coloque a url para a pasta do wodpress/wp-admin
+-------------------------------------------------------------------------------
 Há 4 elementos que interagem para criar páginas HTML no WORDPRESS:
 
 --core files;
 |	O core é o conjuntos de arquivos que você baixa do WORDPRESS.ORG e que provê não
-|	somente as funcionalidades básixas, mas também a coordenação entre todos outros 
-|	elementos. 
+|	somente as funcionalidades básixas, mas também a coordenação entre todos outros
+|	elementos.
 |
 --theme files;
 |	Os arquivos de tema (theme) tem duas funções chaves : Proporcionar o conjunto
@@ -17,10 +19,10 @@ Há 4 elementos que interagem para criar páginas HTML no WORDPRESS:
 
 --database;
 	O banco de dados (data base) possui várias funções. Ele mantem rastrado todos os parametros da sua instalação do WordPress, qual tema e plugins você tem para as preferencias de cada usuarios.Ele também armazena as porções de texto do seu conteúdo.
-	Quando você escreve um post para um blog, por exemplo, ele é armazenado em um banco de dados, juntamente com qualquer referência dos arquivos de midea, que são armazenadas em pastas no servidor. 
-	
+	Quando você escreve um post para um blog, por exemplo, ele é armazenado em um banco de dados, juntamente com qualquer referência dos arquivos de midea, que são armazenadas em pastas no servidor.
+
 ----------------------------------------------------------------------------------------------------------
-Na hora de planejar um site dois mapas devem ser estabelecidos , o mapa do site e o mapa da página.O primeiro ira descrever todas as paginas 
+Na hora de planejar um site dois mapas devem ser estabelecidos , o mapa do site e o mapa da página.O primeiro ira descrever todas as paginas
 do site e o segundo ira descrever o componentes que cada página irá possuir (header,footer,aside e etc.).
 
 Há dua maneiras de manipular o conteudo mostrado para os visitantes , com páginas(também há sub-paginas) e com  posts.
@@ -28,15 +30,15 @@ Há dua maneiras de manipular o conteudo mostrado para os visitantes , com pági
 ---Caso o conteudo possa ser usado de várias maneiras através do site,mesmo no futuro, é melhor inseri-lo com um post.
 |---Um conjunto de posts relacionados deve ser organizados em categorias, onde a categoria principal ou categoria pai é a caracteristica geral dos posts
 |	envolvidos , e cada categoria filha seria o própio post em si.
-|	Categorias são podem ter hirearquiar complexas, isso ajuda a deixar os posts mais flexiveis e reutilizaveis.
+|	Categorias podem ter hirearquiar complexas, isso ajuda a deixar os posts mais flexiveis e reutilizaveis.
 |---Uma outra maneira de organizar post é através de tags, essas servem para filtrar conteudo através de uma caracteristica geral de um conjunto de conteudos.
 
 ---Ja se o conteudo é unico e não haverá outras versões dele, então deve ser inserido como uma página.
 |-Há como configurar se uma parte da página será escondida em uma pagina(o side bar por exemplo), ou
-| escondida, mas mantenha nas paginas somentes fixas. 
+| escondida, mas mantenha nas paginas somentes fixas.
 |---------------------------------------------------------------------------------------------------------
 |---na hora de estruturar o site é bom dividir quais temas serão páginas e quais serão posts, e é bom 	|   também ver quais funcionalidades seu site terá e que o wordpress não oferece alguma dessas  ||||funcionalidade pedira a intalação de um plugin no site.
-	
+
 -------------------------------------------------------------
 
 INSTALANDO WORDPRESS
@@ -60,19 +62,19 @@ A barra superior no dashboard contem os seguintes links:
 	-Link para o wordpress.org,com a documentação e foruns
 	-Link para o front-end do site
 	-Icone indicando quantos comentários precisam ser moderados
-	-Link rápido para criar um novo post,adicionar media, criar 
+	-Link rápido para criar um novo post,adicionar media, criar
 		uma nova página ou adicionar um novo usuario
 	-Link para seu perfil ou para deslogar
 --------------------------------------------------------------
 Maneiras de Manipular caixas
 
 Minimizando
-	|-no cabeçalho das caixas tem uma setinha que 
+	|-no cabeçalho das caixas tem uma setinha que
 	  permite miniizar aquela caixa
 Screen Option-Seção Dashboard=>Select box(Screen Option)
 	|-Pode manipular a visibilidade de algumas caixas e
 	  quantidade de conteúdo em uma caixa
-Drag asn Drop 
+Drag asn Drop
 	|-Clicando e segurando no cabeçalho de uma determinada
 	  caixa o cursar ira mudar para uma cruz e partir dai
 	  vc pode arrastar a caixa pra onde vc quiser
@@ -92,14 +94,14 @@ SETTINGS=>General
 	SEO do seu site, por default ele ja vem com "just another wordpress site"
 	|-wordpress adress:essa URL mostra para o wordpress onde procurar por
 	arquivos
-	|site adress:essa URL mostra para o wordpress oque usar para contruir
+	|site adress:essa URL mostra para o wordpress oque usar para construir
 	url para o site
 	(caso vc queira mudar o dominio do site wordpress não simplismente
 	mude a URL , pesquise "move wordpress site")
 	|-membership:apenas selecione essa checkbox caso vc queira que visitantes
 	se tornem usuários, mesmo assim é melhor usar plugin para não ter usuarios
 	span
-	|-time-zone:é uma selec-tbox para configurar fuso-horário; 
+	|-time-zone:é uma selec-tbox para configurar fuso-horário;
 SETTINGS=>Writing
 |-
 SETTINGS=>Reading
@@ -109,7 +111,7 @@ SETTINGS=>Reading
 	(existem plugins de SEO)
 SETTINGS=>Discussion(configura os comentários do site)
 	|-As configurações padrão para os comentários são
-		--Todos comentários serão segurados para moderação, a menos que o visitor 
+		--Todos comentários serão segurados para moderação, a menos que o visitor
 		 ja tenha um comentário aprovado
 		--Comentários são mostrados em ramificações,ou seja, se alguem responder
 		diretamente para um comentário em particular, então essa respostas será mostrado
@@ -117,16 +119,16 @@ SETTINGS=>Discussion(configura os comentários do site)
 		--Você receberá um e-mail sempre que um comentário foi postado an sempre que um comentário
 		estiver aguardando por moderação
 		--Um cometário será segurado para moderação caso pussua mais de dois links(sinal de spam)
-	|-Default Article settings-É um checkbox que configura que todas page e todos posts tenham 
+	|-Default Article settings-É um checkbox que configura que todas page e todos posts tenham
 		comentário,caso não queira que as pages com posts, é melhor deixar essa checkbox ativada e na
 		hora de configurar as paginas diretamente tirar os comentários delas
 SETTINGS=>Media(isso configurara todas mideas que vc subir para o wodpress)
 	|-Image Sizes:Quando vc upa uma imagem para o wordpress,ele gera uma série de versões
-	dessa imagem com tamanhos diferentes,nessa seção vc irá configurar qual tamanho terá 
+	dessa imagem com tamanhos diferentes,nessa seção vc irá configurar qual tamanho terá
 	essas versões(thumbnail size, mudium size, large size);
 SETTINGS=>Permalink(configura alguns links para que eles possam ter relação com o conteudo da página)
 
-Configurar seu perfil:Você pode clicar no menu users=>your profile ou clicar na foto na barra 
+Configurar seu perfil:Você pode clicar no menu users=>your profile ou clicar na foto na barra
 superior=Edit My profile
 
 O WP tambem permite configurar a senha do usuário,ele mostra se a senha é fraca ou forte
@@ -161,12 +163,44 @@ as Facebook or Twitter.
 --------------------------------------------------------------------------------------
 
 
+Adicionando um Post
+|Você pode adicinar um post apartir de varios lugares do dashboad
+||A partir da toobar superior no seção novo
+||A partir do menu post no sumenu adicionar novo
+||A partir do painer de boas vindas do wodpress(caso não esteja desativado)
+  no link "Escreva seu primeiro post".
+||Ou na box na dashboard inicial com o titulo Rascunho Rápido
+---------------------------------------------------------------------------------------
+EDITANDO O POST
 
+Na textbox existe dois modos para editar o conteudo do post,o primeiro que é o padrão
+é o visual, nele o texto pode ser digitados ou ser colado de outro editor e tambem é possivel
+colocar formatações e estilos direto nele,o resultado sera o que aparecerá no post,
+e a segunda opção para editar é o modo texto onde é possivel editar o texto cru direto com HTML,
+ou caso esteja editando no modo visual, você pode trocar para o modo texto pra ver como o mesmo
+texto está estruturado em HTML.
 
+(em paginas não há categorias para paginas)
 
+Quando for postar um post é obrigatório marcar uma categoria, caso não aconteça, a categoria
+padrão é "sem categoria" ou "uncategorized",mas é aconselhavel fazer categorias e subcategorias
+ou categorias filhas, caso se escolha uma categoria filha automaticamente a categoria mãe será
+escolhida
 
+--------------------------------------------------------------------------------------------
 
+Na meta box publicar existe três opções para se configurar
+|-STATUS=>nessa configuração existe três opções : publicado, rascunho, revisão pendente.
+					publicado ira publicar imediatamente a versão que vc acabou de editar, rascunho ira
+					apenas salvar  aversão mas não ira posta-la e revisão irá salvar a versão e a mesma
+					ficara aguardando o aval do administrador ou de um usuário com permissão de publicar.
+|VISIBILIDADE=>A opção padrão é publico mas, é a que mais será usada dentro dessa opção existe
+							um checkbox chamado("Fixar esse post na página principal"),caso ele seja selecionado
+							esse post não irá para baixo da página e entrar em um sistema de páginação no futuro
+							e sim ficará fixo no topo dos posts.A outra opção é protegida por senha com ela apenas
+							com uma senha, que é definida na hora (quando vc escolher a checkbox),será possivel
+							ver o conteudo desse post.E a ultima opção é privado, é a munos utilizada e com ela apenas
+							o administrador consiguira ver o post
+|AGENDAMENTO=>com essa opção será possivel agenar o a postagem do conteudo.
 
-
-
-
+-------------------------------------------------------------------------------------------------
