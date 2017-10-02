@@ -307,7 +307,19 @@ content and usually showing the Profi le picture and biography. There are many
 plugins that give you control over these boxes or even put in an author box where 
 there isn’t any now. Just search Plugins ➪ Add New for the author box.
 
-
+----------------------------------------------------------------------------------
+ADICIONANDO PAGINAS 
+Para acessar a parte de adicionar páginar basta ir no menu página e colocar em 
+adicionar nova, o menu é bem parecido com ao de adicionar um post e possui a maioria
+das metabox que o post tambem tem.Porem ela possui uma metabox unica para pagina 
+chamada atributo da página, nela vc pode configurar trea atributos:
+|Mãe(Parent)-Essa configuração serve para dizer se essa pagina é subpagina de 
+			alguma outra,isso vai servir para varias coisas como a URL para chegar 
+			na pagina em questão, configurações que o tema vai utilizar.
+|Template:Caso o tema escolhid tenha opções de estilo para uma pagina,um dropdown 
+			vai aparecer com as opções
+|Ordem essa configuração vai nos dizer em que ordem a pagina deve aparecer nos menus
+e afin, normalmente os temas utilizam essa configuração.
 
 
 
