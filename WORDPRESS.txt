@@ -202,6 +202,11 @@ Na meta box publicar existe três opções para se configurar
 							ver o conteudo desse post.E a ultima opção é privado, é a munos utilizada e com ela apenas
 							o administrador consiguira ver o post
 |AGENDAMENTO=>com essa opção será possivel agenar o a postagem do conteudo.
+|REVISÕES=>Caso o post sofra alterações depois da primeira publicação essa opção aparece-ra,nela vc podera ter 
+			um controle das versões desse post,atrvés de uma barra que representa uma linha do tempo,vc pode comparar
+			a versão que estava atualizada naquela ocasião na direita e a versão anterior a ela no lado esquerda,caso
+			vc clicar na check box acima dessa linha do tempo("comparar qualquer duas versões"), você consiguirá comparar
+			qualquer duas versõe,não nescessáriamente a atual e a anteriro a ela.
 
 -------------------------------------------------------------------------------------------------
 
@@ -212,3 +217,115 @@ que esta sendo utilizado.
 TAGS-Servem para colocar temas para seu usario achar facilmente o post em questão, e tambem serve para
 o mecanismos de busca achar facilmente o post, como não é obrigatório como as categorias as vezes elas são
 esquecida mas são se grande impostancia,para inserir diversas tags de uma só vez asta separa-las com virgular.
+
+PLUGINS
+Because Posts, Categories, Tags, and Images are covered in other lessons, I’m 
+restricting these plugins to functions relating to the “Publish” and “Format” 
+ sections of this lesson.
+PUBLISH
+This is an example of a group of plugins that try to make the publishing process 
+even easier. Others pop up an “Are You Sure?” message to make sure you don’t 
+accidentally publish something you shouldn’t, and so on.
+ ➤ Post Expirator can help if you need a Post or a Page to expire after a certain 
+time (you can have it trashed or set to draft mode).
+ ➤ Toolbar Publish Button duplicates the publish/update button on the admin 
+Toolbar, so it’s always visible no matter how far down the page you scroll.
+PRIVACY
+ ➤ Members is one of several plugins that enable you to make your entire website 
+(or individual Posts or Pages) private; that is, visible only to logged-in users. 
+Another in this group is User Access Manager.
+ ➤ Membership plugins are another way of making entire sites or portions private, 
+and usually this involves paid memberships. This group of plugins is covered in 
+Lesson 36, “More Plugin Suggestions.”
+ ➤ WP Hide Post enables you to prevent a Post or Page from appearing in various 
+areas of your site.
+REVISIONS
+ ➤ Revision Control controls the number of revisions globally or on an individual 
+Post/Page basis. You can also delete specifi c revisions. There are many plugins 
+like this, but this is the most popular.
+ ➤ Better Delete Revision—If you’ve allowed unlimited or a lot of revisions, 
+you might want to delete them later, and plugins like this enable you to do 
+that. These kinds of plugins fall into the category of database optimization; 
+they clean up your WordPress database to make it more effi cient. Lesson 32, 
+“Keeping Up to Date,” covers more of those.
+POST FORMATS
+ ➤ Disable Post Format UI—I mentioned that you can hide the Post Format box 
+if you don’t use it, but if you have other users on your system and don’t want 
+them trying to use it, this plugin removes any trace of the Format box, even 
+from Screen Options.
+ ➤ Bulk Convert Post Format—Suppose you have a Category called Videos and 
+you install a new theme that used the Video Post Format; this plugin enables 
+you to give every Post in that Category a format of “video.”.
+
+-------------------------------------------------------------------------
+FUNÇÕES AVANÇADAS
+para mostrar outras funções que são escondidas a configuração padrão,vc deve
+abrir o menu opção de tela na parte superio direita.Nela há varios checkbox,que
+quandos delecionados irão mostrar a metabox correspondente ao titulo da checkbox.
+
+REVISÕES-Diferente da opção que aarece na metabox publicar,nessa metabox aparece 
+uma lista com todas as versões desse post e ao lado de cada versão um link que
+aponta para a tela padrão do controle de versão porem ja configurada na versão
+que vc clicou
+
+RESUMO-Essa metabox apenas fara sentido caso seu tema faça uso dela,se seu tema
+otimiza a vizualização dos post na pagina principal e vc não esta satisfeito com
+o resumo que a pareceu na pagina principal então vc pode configurar seu própio
+resumo.Você pode no editor de texto definir até onde o post será mostrado na página
+principal,mas caso o tema esteja utilizando a função de resumo do própio wordpress
+então será mostrado apenas as 55 primeiras palavras do post.Caso for definido um 
+resumo na meta box resumo então esse texto sobrescreverá  a função automatica do
+wordpress, mas ele só se aplicará caso o tema não estiver mostrando os posts inteiros
+em lista na pagina principal.
+
+CAMPOS PERSONALIZADOS-Servem para inserir meta dados no post.
+
+DISCUSSÃO-Ira fazer uma configuração personalizada do para o post,que ira
+sobre escrever as configuraçãoes gerais feitanas no menu configurações=>discussão
+
+COMENTARIOS-Irá mostras todos os comentários e opções doque fazer com eles
+
+SLUG
+
+AUTOR-É util quando vc tem mais de um usuario contribuindo para o site,por padrão
+ele vai declarar o usuario atual.
+
+PLUGINS
+Plugins for Revisions are covered in Lesson 8, and plugins for Comments are 
+ covered in Lesson 23.
+EXCERPTS
+ ➤ Advanced Excerpt enables you to control the length of auto-excerpts, change 
+the Read More text, and much more.
+ ➤ Rich Text Excerpts turns the default Excerpt fi eld, which is a plain text area 
+fi eld, into a rich text editor like the Content Editor.
+ ➤ Page Excerpt is one of several plugins that add Excerpt functionality to Pages.
+AUTHOR
+ ➤ Co-Authors Plus enables you to have multiple authors for one post, and you 
+can choose the order in which the authors appear.
+Some themes display a box about the author of a Post, typically at the end of the 
+content and usually showing the Profi le picture and biography. There are many 
+plugins that give you control over these boxes or even put in an author box where 
+there isn’t any now. Just search Plugins ➪ Add New for the author box.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
