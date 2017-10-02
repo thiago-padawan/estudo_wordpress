@@ -320,7 +320,22 @@ chamada atributo da página, nela vc pode configurar trea atributos:
 			vai aparecer com as opções
 |Ordem essa configuração vai nos dizer em que ordem a pagina deve aparecer nos menus
 e afin, normalmente os temas utilizam essa configuração.
+---------------------------------------------------------------------------------------
+TEMAS
+Temas tem duas funções principais:Design e Funcionalidade.Um bom temas tem muita flexibilidade
+Important Theme Features 
+Following are some key features to look for in a theme, in addition to using built-in WordPress  features 
+and back-end design standards, passing Theme Check, having clear documentation, and so on:
+ ➤ A lot of Widget areas, especially ones that you can place anywhere on the page. (Not the 
+ Widgets themselves, but the areas in which you can place Widgets.)
+ ➤ Many front page control options—easy to update and control slide shows, user-selectable 
+content areas (allowing you to put either a Post or Page, or custom Post-type content, into 
+these areas).
+ ➤ Several areas (or even the ability to easily create areas) in which you can have menus that 
+use WordPress’s built-in menu system. 
 
+Redesign-há como pegar um tema pronto com as funcionalidades prontas e mudar apenas seu design
+via css
 
 
 
