@@ -204,3 +204,11 @@ Na meta box publicar existe três opções para se configurar
 |AGENDAMENTO=>com essa opção será possivel agenar o a postagem do conteudo.
 
 -------------------------------------------------------------------------------------------------
+
+FORMATO-Essa configuração tem duas funções a primeira é que tambem ser como uma forma de categorizar 
+um post, e a segunda e mais importante é que serve para mudar o layout do post, isso vai depender o tema
+que esta sendo utilizado.
+
+TAGS-Servem para colocar temas para seu usario achar facilmente o post em questão, e tambem serve para
+o mecanismos de busca achar facilmente o post, como não é obrigatório como as categorias as vezes elas são
+esquecida mas são se grande impostancia,para inserir diversas tags de uma só vez asta separa-las com virgular.
