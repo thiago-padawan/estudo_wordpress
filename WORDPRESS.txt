@@ -443,10 +443,42 @@ theme.
 
 --------------------------------------------------------------------------------------------------------
 
+PLugins
 
+-É uma arquivo o um conjunto de arquivos que adiciona uma funcionalidade ao wordpress que ele cru não possui
+-Na sessão plugins no submenu "plugins instalados" irá ser mostrada uma lista com todos plugins instalados
+ou seja todos os plugins no diretório wp-content/plugins,na lista é possivel ter 3 estados(3 cores):
+	|branco:oque mostra queo plugin esta instalado porem não esta ativado
+	|azul:mostra que o plugin esta instalado e ativado
+	|vermelho: mostra que o plugin esta intalado porem desatualizado(e jundo normalmente vem o link para a 
+	atualização do plugin).
+-Quando um plugin é ativado algumas coisas podem acontecer, como :
+	 ➤ A new section on the main Admin menu
+	 ➤ A new submenu item on the main Admin menu
+	 ➤ A new item on the toolbar
+	 ➤ A new Widget
+	 ➤ A settings link on the plugin’s listing on the plugins Page
+-Para deletar vc deve primeiro precisa desativar ele e depois clicar em excluir, isso não significa que todas
+as informações foram deletadas, pois alguns plugins inserem dados no banco de dados, para resolver isso 
+existem alguns .
+plugins.
 
-
-
+PLUGINS
+Here are some plugins to help you manage your plugins.
+ ➤ Plugin Organizer—Enables you to group plugins on the plugins Page, as well 
+as determine the loading order of plugins or choose to not load a plugin under 
+certain conditions.
+ ➤ WP Manage Plugins—Provides a set of tools for managing plugins. Disable 
+automatic updates for specifi c plugins, hide the plugins page from other users, 
+and have an e-mail automatically sent to an administrator when plugins are 
+added, activated, or deactivated.
+ ➤ P3 (Plugin Performance Profi ler)—Provides a performance report on all your 
+plugins. Helps you spot ones that take up a lot of resources that may slow 
+down your site. Stores reports to allow for comparison over time.
+ ➤ WP Install Profi les—If you create multiple WordPress sites, this plugin 
+enables you to create a profi le of a set of plugins. You can then download 
+that  profi le and have all those plugins automatically installed on another 
+WordPress installation.
 
 
 
