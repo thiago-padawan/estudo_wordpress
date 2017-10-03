@@ -323,6 +323,7 @@ e afin, normalmente os temas utilizam essa configuração.
 ---------------------------------------------------------------------------------------
 TEMAS
 Temas tem duas funções principais:Design e Funcionalidade.Um bom temas tem muita flexibilidade
+
 Important Theme Features 
 Following are some key features to look for in a theme, in addition to using built-in WordPress  features 
 and back-end design standards, passing Theme Check, having clear documentation, and so on:
@@ -337,7 +338,54 @@ use WordPress’s built-in menu system.
 Redesign-há como pegar um tema pronto com as funcionalidades prontas e mudar apenas seu design
 via css
 
-
+-----------------------------------------------------------------------------------------------------------
+ADICIONANDO UM NOVO TEMA
+|-Clicando em Temas no submenu da seção aparencia,irá aparecer todos os temas ja instalados e que vc
+consegue intalar, acima deles existe um botão "Adicionar Novo", e que apartir dele uma nova interfa 
+sera aberta.Nela vc podepesquisar por novos temas.
+	|-Existem abas prontas ondes serão mostrados temas de acordo com o titulo da aba, mas existe tambem
+	o filtro de caracteristicas onde vc pode pesquisar um tema apartir de caracteristicas especificas ,
+	|-Caso vc achar um tema que agrade vc pode clicar dar um hover em cima da quadrado dele e clicar em
+	visualizar antes de instalar , nessa seção vc pode ver detalhes do tema  a esquerda e o tema em si na
+	direita,caso vc queira esconder os detalhes va na parte inferiror esquerda e clique em esconder.
+|-Há tambem uma forma de subir temas direto da sua maquina, a partir de um arquivo zip.
+	|-Quando vc compra um tema, há a possibilidade deles te mandarem um zip,porém dentro desse zip irá ter
+	algumas instruções e licensas e dentro desse zip haverá o zip do tema em si.
+	|-Tambem há a possibilidade do seu tema depender de outro tema , ou seja ter um tema pai,nesse caso vc
+	deverá instalar o arquivo pai de depois o filho.Mas o wordpress informará caso essa ordem não seja respeitada.
+-----------------------------------------------------------------------------------------------------------------
+CUSTOMIZANDO UM TEMA
+|-Clicando em Customizar no submenu da seção aparencia,será aberta uma interface com a versão viva do seu front
+end, no lado direito aparecera o template em si e na parte esquerda será mostrado um submenu que é definido pelo
+tema em questão e que serve para customizar partes do layout, como titulos e cores.Mas lembre-se que esse submenu
+é definido pelo tema que esta sendo usado e não pelo wordpress.
+|Aparencia=>Menu-É uma interface do própio wordpress que sobreescreve o gerador automatico de menu,normalmente
+baseado na páginas do site.
+PLUGINS
+Here are some plugins that can help with modifying or expanding control over 
+design elements.
+The Customize function is still fairly new and no doubt there will be many plugins 
+developed to modify and expand it, but a couple of the following do just that.
+ ➤ Background Manager—Extends the WordPress background function to 
+allow more control over background images in particular. Enables full-screen 
+ background images and different backgrounds based on the page.
+ ➤ Custom Background Extended—Extends the built-in WordPress background 
+function to allow individual backgrounds on any Page or Post.
+ ➤ WP Display Header—Gives you easy control over what site header image is 
+shown on any given Page. Can make the image random on specifi c Pages as well.
+ ➤ Site Layout Customizer—Change the layout of your front Page or other Pages 
+using the WordPress customize function. May not work with all themes.
+ ➤ Styles—Modifi es the WordPress customize function so that you can make 
+style changes no matter which theme you use. Enables you to style many color 
+ elements as well as fonts.
+ ➤ Fourteen Colors—Modifi es the default Twenty Fourteen theme’s customize 
+function so that you can adjust colors easily.
+ ➤ Easy Google Fonts—Enables you to add Google fonts to your site, for all 
+themes you use. Integrates with the WordPress customize function so that you 
+can preview your fonts in real time.
+ ➤ WP Google Fonts—Easy interface for adding Google fonts to your site and 
+choosing which elements will use which fonts.
+---------------------------------------------------------------------------------------------
 
 
 
