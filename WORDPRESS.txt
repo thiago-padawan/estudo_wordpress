@@ -386,11 +386,62 @@ can preview your fonts in real time.
  ➤ WP Google Fonts—Easy interface for adding Google fonts to your site and 
 choosing which elements will use which fonts.
 ---------------------------------------------------------------------------------------------
+CRIANDO UM CSS PERSONALIZADO
+
+Apenas um arquivo é nescessário para criar um tema filho: style.css.
+Se formatado corretamente e posicionado na pasta correta(/wp-content/themes),o wordpress vai ver que isso
+é um tema e ira mostrar ele na bibliotaca de temas.
+|Exemplo de arquivo style.css:
+	/*
+		Theme Name: Nome Tema
+		Template: nome-da-pasta-tema
+		Description: Uma descrição qualquer.
+	*/
+	@import: url("../nome-tema/style.css");
+|-O Theme Name pode ser oque vc quiser , mas tenha bom senso pois esse nome será oque vai aparecer
+no menu gerenciador de temas.
+|-A unica linha realmente importante é a linha Tamplate, ela mostrará ao wordpress em qual pasta buscar o 
+tema pai desse css,ou seja irá mostrar ao wordpress onde bucar os arquivos que não estão presentes no seu tema
+filho
 
 
+Se vc quiser mudar diretamente o layput do header do seu site vc pode seguir dois caminhos: mudar o css,
+ou copiar o arquivo header.php para o seu tema filho e manualmente modificar a parte que lhe entereça, seja
+comentando ou retirando pernamentemente.Porem existe alguns temas progamados de certa forma que vc pode adicionar
+seu propio codigo em uma parte sem modificar os arquivos do tema. Essas partes são chamadas de hooks.Não só 
+vc pode adicionar seu própio código como tambem remover parte do código do tema.
+Vc mexe com hooks no arquivo functions.php no Tema filho , usando PHP e HTML, então isso 
 
+ ➤ You could write some CSS rules.
+ ➤ You could copy the file where the data is inserted and save it in your Child theme, and then 
+comment out the data coding or remove it altogether. 
+ ➤ Or there may be a hook in your theme for the area just below the Post title that enables you 
+to remove the date from the display, using a PHP function in the functions.php fi le of your 
+Child theme.
 
+PLUGINS
+Following are some plugins that can make advanced design customization easier.
+CUSTOM CSS INTERFACES
+ ➤ Simple Custom CSS—Adds a CSS editor Admin screen with syntax 
+ highlighting. Works with any theme, but it won’t necessarily override all CSS 
+because of where its style sheet is placed in the head area of the HTML page.
+ ➤ Theme Junkie Custom CSS—Adds an Administrative screen where you can 
+add CSS using an editor with syntax highlighting. The plugin also puts the CSS 
+box into the WordPress customizer so that you can preview the CSS changes. 
+The custom css is added in such a way that it can override not only a theme’s 
+style, but also any plugin styling.
+ ➤ Lazyest Stylesheet—Adds a CSS editor with syntax highlighting and overrides 
+any theme or plugin styling.
+CHILD THEMES
+ ➤ Child Theme Confi gurator—Provides an interface for selecting Parent theme 
+style elements you want to change, enabling you to fi rst preview the changes. 
+Then when you’re ready, it creates the child theme fi les for you.
+ ➤ Child Theme Creator by Orbisius—Automatically creates a child theme from 
+any nonchild theme and includes a theme editor.
+ ➤ Child Themify—Automatically creates a child theme from any other nonchild 
+theme.
 
+--------------------------------------------------------------------------------------------------------
 
 
 
