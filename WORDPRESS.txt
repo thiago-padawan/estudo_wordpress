@@ -544,8 +544,55 @@ Media Uploader, adding hundreds at a time can be an issue. You could upload
 those fi les to your server using a fi le transfer protocol (FTP) program, but 
 WordPress won’t recognize them in the Media Library, even if you use 
 the WordPress uploads folder. This plugin gets around that problem.
+----------------------------------------------------------------------------------------------------
+MEDIA UPLOADER WINDOW
+Quando vc clica em difinir imagem destacada(featured image), a unica função que vc pode excutar é 
+subir a imagem ou utilizar alguma que ja estja na biblioteca.Porém se vc adicionar uma imagem pelo botão
+em cima do editor vc pode tanto subir imagens e pegar da bibliotaca como usar as funções que aparecem no 
+meno do lado esquerdo da janela.
 
+Existe 4 operações que vc pode executar nessa janela:
+|-Inserir Media
+|-Criar uma Galeria
+|-Configurar uma imagem destacada
+|-Inserir uma media a partir de uma URL
+|-Criar uma playlist de audio
+|-Criar uma playlist de Video
 
+Os detalhes da imagem selecionada ou Detalhes do Anexo(Attachment Details) tem 3 funções |
+|-Lista as especificações do arquivo: Data qeu fi upado,tamanho,e etc.
+|-Gerencia Meta dados da imagem:Titulo, legenda,texto alternativo
+|-Configuração de comoa imagem srá mostrada:Alinhamento e Tamanhos
+
+PLUGINS
+Following are some plugins related to functions in the Media Uploader window, 
+except for Galleries, which are covered in Lesson 15.
+INSERT MEDIA
+ ➤ Media Manager Plus enables you to choose fi les from sources other than the 
+Media Library, such as Flickr and Instagram.
+ ➤ Default Media Uploader View. The default view for the Media Library tab is 
+to show all items in the library; this plugin sets the default view to Uploaded 
+to This Post so you see only Media Library items that were uploaded to the 
+current post.
+DISPLAY SETTINGS
+ ➤ WP Image Size Selection. Themes and plugins may create other image sizes, 
+and this plugin makes them all available in the Size drop-down of the display 
+settings.
+ ➤ Default Image Settings allows you to control the default image alignment, link-
+ing, and size settings from Settings ➪ Media.
+SET FEATURED IMAGE
+ ➤ Require Featured Image is for you if you want all Posts or all Pages or both 
+to have a Featured Image. Handy when you have other authors or you 
+just want to remind yourself. It prevents the Post or Page from publishing 
+ without a Featured Image. Only drawback is that you can’t select specifi c 
+Post Categories—it’s all or nothing.
+ ➤ Auto Post Thumbnail. Rather than requiring a Featured Image, this plugin 
+checks if one has been set; and if not, it uses the fi rst image uploaded to the 
+Post or Page.
+ ➤ Instant Featured Image enables you to both insert an image into content and 
+at the same time make it the Featured Image. This is useful if your Theme does 
+not make use of the Featured Image when displaying the full Post and you 
+want that image in your content.
 
 
 
