@@ -445,7 +445,7 @@ theme.
 
 PLugins
 
--É uma arquivo o um conjunto de arquivos que adiciona uma funcionalidade ao wordpress que ele cru não possui
+-É uma arquivo ou um conjunto de arquivos que adiciona uma funcionalidade ao wordpress que ele cru não possui
 -Na sessão plugins no submenu "plugins instalados" irá ser mostrada uma lista com todos plugins instalados
 ou seja todos os plugins no diretório wp-content/plugins,na lista é possivel ter 3 estados(3 cores):
 	|branco:oque mostra queo plugin esta instalado porem não esta ativado
@@ -479,7 +479,71 @@ down your site. Stores reports to allow for comparison over time.
 enables you to create a profi le of a set of plugins. You can then download 
 that  profi le and have all those plugins automatically installed on another 
 WordPress installation.
+------------------------------------------------------------------------------------------------------
+Media
 
+ Existe dos senarios onde vc pode adicionar uma novos arquivos de media(imagem,audio,video)
+ no wordpress:
+ |-Upando e inserindo eles no conteudo de uma pagino ou post especifico
+ |-Upando ele para a biblioteca de media para usar eles mais tarde
+
+ Para inserir uma imagen no meio do conteudo de um post, basta clicar no botão acima
+ do editor entitulado Adicionar Media, nele vc pode tanto inserir uma imagem direto do 
+ seu computador na aba "Enviar Arquivos" ou Inserir uma imagem que ja esteja em sua biblioteca
+ na aba Biblioteca de Media.Ao selecionar a imagem que estará no conteudo ela deverá estar com 
+ uma borda azul e um check, quando isso acontecer será mostrado detalhes sobre essa imagem no lado 
+ direito da janela.Caso vc queira inserir mais de uma imagem basta clicar nas que vc quer porem os 
+ detalhes na parte direita só serão mostrados na ultima imagem clicada.Mesmo que vc upe a imagem apenas
+ para o conteudo de um post especifico essa imagem fara parte do biblioteca de imagens.
+
+ Para adicionar imagens que vc pretende usar futuramente , basa ir na na seção media no submenu Adicionar nova
+ nessa interface vc é capaz de subir mais de um arquivo mas caso um erro aconteça com um desses arquivos podem
+ ser alguns motivos como:Seu arquivo é muito grande, seu browser não suporta o método de upload do wordpress,
+ seu arquivo é do tipo errado,o wordpress não tem permissão para fazer uploads .
+
+ O wordpress irá sugeurir um limite para o tamanho dos arquivos upados, esse limite é configurado pela empresa
+ de ospedagem, esse limite pode ser desde 2MB até 125MB.
+
+ É possivel que browsers antigos não suportem o método de upload do wordpress, nesse caso vc deve utilizar uma função de fallback do própio navegador pra upar seus arquivos,porem nessa opção não é possivel upar varios 
+ arquivos de uma vez, tera que ser feito um por vez.Para utilizar essa opção basta clicar no link uploader do 
+ navegador.
+
+ Pode tambem ocorrer do wordpress não ter permissão para receber arquivos no servidor em questão, caso o site ja
+ estiver hospedado vc deve entrar em contado com a empresa de hospedagem.
+
+ PLUGINS
+Many types of plugins deal with media fi les, but only those directly related to the 
+uploading of images are covered here.
+UPLOAD FILE SIZE
+ ➤ WP Image Size Limit. Administrators set a limit on image size, and a notice of 
+that limit is shown on the upload screen. If users try to upload an image that’s 
+larger, they get an error message.
+ ➤ Imsanity automatically reduces the dimensions of images to a pre-set limit dur-
+ing upload, but can also be used on existing images.
+ ➤ EWWW Image Optimizer optimizes your images as you upload them. It will 
+even convert an image to a fi le type that’s more effi cient. It can also be used on 
+fi les already in your Media Library.
+Lesson 14 covers more about plugins that retroactively reduce existing fi les.
+MANAGING FILE TYPES
+ ➤ WP Add Mime Types shows you what fi le or mime types WordPress allows by 
+default and then lets you add your own to the list.
+ ➤ Upload File Type Settings Plugin lets you add new allowed fi le types to the 
+default list in WordPress. Note: This plugin, along with a couple other fi le type 
+changers, has not been updated for a few years.
+USER UPLOADING
+ ➤ File Away not only enables logged-in users to upload fi les from anywhere on 
+the front end of your site, but it’s a complete fi le listing and download man-
+ager as well. Useful for allowing users/members who don’t have any back-end 
+privileges to upload fi les.
+ ➤ WordPress File Upload enables logged-in users to upload fi les from any front-
+end page on your website. You can limit fi le size and type. Can be used to 
+allow the public to upload fi les, but that’s not recommended.
+FTP FILE UPLOADING
+ ➤ Add from Server. Although you can add multiple fi les with the WordPress 
+Media Uploader, adding hundreds at a time can be an issue. You could upload 
+those fi les to your server using a fi le transfer protocol (FTP) program, but 
+WordPress won’t recognize them in the Media Library, even if you use 
+the WordPress uploads folder. This plugin gets around that problem.
 
 
 
