@@ -482,9 +482,9 @@ WordPress installation.
 ------------------------------------------------------------------------------------------------------
 Media
 
- Existe dos senarios onde vc pode adicionar uma novos arquivos de media(imagem,audio,video)
+ Existe dos senarios onde vc pode adicionar novos arquivos de media(imagem,audio,video)
  no wordpress:
- |-Upando e inserindo eles no conteudo de uma pagino ou post especifico
+ |-Upando e inserindo eles no conteudo de uma pagina ou post especifico
  |-Upando ele para a biblioteca de media para usar eles mais tarde
 
  Para inserir uma imagen no meio do conteudo de um post, basta clicar no botão acima
@@ -560,7 +560,7 @@ Existe 4 operações que vc pode executar nessa janela:
 |-Criar uma playlist de Video
 
 Os detalhes da imagem selecionada ou Detalhes do Anexo(Attachment Details) tem 3 funções |
-|-Lista as especificações do arquivo: Data qeu fi upado,tamanho,e etc.
+|-Lista as especificações do arquivo: Data qeu foi upado,tamanho,e etc.
 |-Gerencia Meta dados da imagem:Titulo, legenda,texto alternativo
 |-Configuração de comoa imagem srá mostrada:Alinhamento e Tamanhos
 
@@ -594,7 +594,71 @@ at the same time make it the Featured Image. This is useful if your Theme does
 not make use of the Featured Image when displaying the full Post and you 
 want that image in your content.
 
+-----------------------------------------------------------------------
+IMAGENS NO EDITOR DE CONTEDO
+Quando vc adiciona uma imagem no meio do conteudo de um post vc pode formata-la para se
+melhorar o design ou até reformatar configurações feitas na janela de upload antes citada.
 
+Nas versõs 4.1 pra cimaao clicaar em uma imagem no meio do editor de conteudo irá aparecer
+uma barra  com 6 icones , sendo os 4 primeiros de alinhamento, o antipenutimo(icone de um lapis) 
+é para reformatar a imagem inteira e o ultimos (icone de um X) é para apagar a imagem.
+
+ALINHAMENTO-
+A imagem por padrão,caso não tenha sido configurada na janela de upload, vem sem alinhamento
+oque siginifica que mesmo que ela apareça no canto do editor o texto não é capaz de fluir 
+em volta da imagem.Escolhento tanto o alinhamento para direita ou pa equerda o texto fluira
+em volta da imagem,e caso encolha o alinhamento no centro o texto tambem não fluirá.
+
+DETALHES-
+Caso se cliqe no pincel para reformatar a imagem será aberta uma janela com varias opções,
+algmas novas outras não,como texto alternativo e a legend, é possivel tambem mudar o alinhamento
+da imagem por essa janela e o tamanho dela(lembre-se que o wordpress cria varais versões da imagens
+upadas),e a ultima configuração que era possivel ter sido feita na janela de upload é a opção de 
+colocar um link na imagens.
+|-As novas opção para as imagens são substiuir ela , essa função só será ativada caso se clique no 
+botão que apareceem baixo da miniatura da própia imagem no canto superior direito,ao clicar nele 
+será aberto uma janela semelhante a janela para configurar a imagem destacada(featured image),com toda
+a biblioteca de imagens e com a opção de subir uma nova imagem, a partir dessa mesma janela é possivel
+configurar os detalhes da imagem.
+|-Outra configuração nova que abarece na ababa Opções avançadas , minimizada por padrão, nela é possivel
+configurar o css da imagem adicionando a ela uma classe um atributo tittle para a imagem e configurar
+tanto o css quanto o rel do link caso a imagem em questão esteja linkada para algo.
+
+
+EDITOR DE IMAGENS
+É possivel usar um editor dentro do wordpress para editar as imagens na biblioteca
+, é um editor simples mas suficiente para resolver os principais problemas como:
+|-Recolocar a thumbnail padrão criada pelo wordpress
+|-mudando a dimensão da versão full-sized da imagem
+|-Refletindo uma imagem para direita ou para esquerda para a mesma ter uma nova direção
+
+Para abrir essa função vc pode tanto clicar em baixo da miniatura na jenela que é abera quando vc
+clica no lapis dentro do editor de conteudo,quanto entrar na biblioteca de midia 
+
+Todas as funções do editor de imagens
+ ➤ Crop
+ ➤ Rotate Left or Right (counter-clockwise or clockwise)
+ ➤ Flip Horizontally or Vertically
+ ➤ Undo or Redo an operation
+ ➤ Scale
+
+CROP
+Para fazer um crop na imagem em questão basta arrastar o cursor do mouse na imagem porem para mostra
+oque essa seleção irá configurar deve-se ir na seção miniatura(thumbnail) no lado direito nela
+existe tres opções :
+|-todos os tamanhos de imagens:para mudar o tamanho da propia imagem e consequentimente sua thumbnail.
+|-miniatura:para mdar apenas a thumbnailque o wordpress gera automaticamente.
+|-todos os tamanhos exceto a miniatura:para mudaro tamanho da imagem mas não a thumbnail.
+Para efetuar o corte deve-se clicar no primeiro icone em cima da imagem.
+
+SCALE
+Vc porde mudar as dimensões deuma imagem inserindo diretamente a largura ou altura desejada
+na aba redimensionar imagem, porem é impossivel não manter a proporção original da imagem,ou seja,
+sempre que se mudar a largura  a altura ira se modificar para manter a proporção da imagem original
+,para finalizar o redimencionamento clique no botão azul escala(scale).
+Para restaurar a imagem original basta maximizar a aba que aparece após o primeiro redimensionamento,
+nela exxiste uma botão restaurar imagem qe resultara na restauração dasdimensões originais da imagem.
+Vc tamemnão é capaz de redimensionar a imagem para medidas maiores que as medidas originais.
 
 
 
